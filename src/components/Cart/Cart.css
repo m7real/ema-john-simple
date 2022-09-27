@@ -1,0 +1,17 @@
+.cart {
+  position: sticky;
+  top: 100px;
+  padding-top: 8px;
+}
+
+.cart h4 {
+  text-align: center;
+}
+.cart-info {
+  margin-left: 23px;
+  margin-top: 50px;
+}
+
+/* .cart-info :last-child {
+  font-size: 21px;
+} */
