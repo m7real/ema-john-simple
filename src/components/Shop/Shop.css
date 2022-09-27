@@ -1,0 +1,35 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  min-height: 50vh;
+  gap: 10px;
+}
+
+.products-container {
+  margin-top: 120px;
+  margin-left: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+}
+
+.cart-container {
+  background: rgba(255, 153, 0, 0.3);
+}
+.cart-container h2 {
+  text-align: center;
+}
+.cart-container p {
+  margin-left: 23px;
+}
+
+@media screen and (max-width: 1100px) {
+  .products-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .shop-container {
+    grid-template-columns: 2fr 1fr;
+    gap: 45px;
+  }
+}
