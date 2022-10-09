@@ -9,9 +9,22 @@
 }
 .cart-info {
   margin-left: 23px;
+  margin-right: 23px;
   margin-top: 50px;
 }
+.cart-info button {
+  background-color: #ff9900;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 0 3px 0 #945900;
+}
 
-/* .cart-info :last-child {
-  font-size: 21px;
-} */
+.cart-info button:hover {
+  background-color: #ad6800;
+  cursor: pointer;
+}
